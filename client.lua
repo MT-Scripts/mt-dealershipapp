@@ -10,8 +10,8 @@ CreateThread(function ()
         local added, errorMessage = exports["lb-phone"]:AddCustomApp({
             identifier = identifier,
             name = "PDM",
-            description = "Catálogo Premium Deluxe Motorsports",
-            developer = "O caralho",
+            description = "Premium Deluxe Motorsports Catalogue",
+            developer = "MT Scripts",
             defaultApp = false,
             size = 59812,
             ui = GetCurrentResourceName() .. "/ui/index.html",
