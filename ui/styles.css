@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    visibility: hidden;
+
+    font-family: sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    background-color: #212528;
+}
+
+.header-wrapper {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 10px;
+    background-color: #1b1d21;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid rgb(56, 56, 56);
+}
+
+.header-wrapper > img {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.header-wrapper > input {
+    width: 55%;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #212528;
+    border: 1.5px solid rgb(56, 56, 56);
+    color: #f5f9fc;
+    outline: none;
+    font-size: 20px;
+    font-variant-caps: all-petite-caps;
+}
+
+#list-button {
+    background-color: transparent;
+    border: none;
+    margin-left: 13px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#list-button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.categories-wrapper {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 82.5%;
+    padding: 20px;
+    color: #f5f9fc;
+    font-variant-caps: all-petite-caps;
+    font-size: 20px;
+    background-color: #1b1d21;
+    border-left: 1.5px solid rgb(56, 56, 56);
+    overflow-x: auto;
+    text-align: center;
+}
+
+.category {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #212528;
+    border: 1.5px solid rgb(56, 56, 56);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.category:hover {
+    background-color: #343a3f;
+}
+
+#cars-wrapper {
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.vehicle-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 90%;
+    flex-flow: row wrap;
+    height: 36.5%;
+    background-color: #1b1d21;
+    border: 1.5px solid rgb(56, 56, 56);
+    border-radius: 5px;
+}
+
+.vehicleInfo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    align-items: flex-start;
+    flex-flow: column wrap;
+}
+
+.vehicle-card > img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 1.5px solid rgb(56, 56, 56);
+    color: #f5f9fc;
+    font-size: 20px;
+}
+
+.vehicle-label {
+    color: #f5f9fc;
+    font-size: 20px;
+}
+
+.vehicle-price {
+    color: #246b4d;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+/* Do not edit, this allows you to view changes easily in your browser */
+#phone-wrapper {
+    display: none;
+
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 29rem;
+    height: 58.5rem;
+}
