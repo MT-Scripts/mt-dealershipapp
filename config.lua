@@ -1,16 +1,15 @@
 Config = Config or {}
 
 Config.vehicleCategories = {
-    { label = 'Desportivos', id = 'sports' },
-    { label = 'Desportivos Clássicos', id = 'sportsclassics' },
-    { label = 'Super Desportivos', id = 'super' },
-    { label = 'Motas', id = 'motorcycles' },
+    { label = 'Sports', id = 'sports' },
+    { label = 'Sports Classics', id = 'sportsclassics' },
+    { label = 'Super', id = 'super' },
+    { label = 'Motorcycles', id = 'motorcycles' },
     { label = 'Muscle', id = 'muscle' },
     { label = 'Sedans', id = 'sedans' },
-    { label = 'Compactos', id = 'compacts' },
+    { label = 'Compacts', id = 'compacts' },
     { label = 'Coupes', id = 'coupes' },
     { label = 'SUVs', id = 'suvs' },
-    { label = 'Carrinhas', id = 'vans' },
-    { label = 'Diferenciados', id = 'addon' },
+    { label = 'Vans', id = 'vans' },
     { label = 'OffRoad', id = 'offroad' },
 }
